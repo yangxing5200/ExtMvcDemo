@@ -39,8 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessBase.cs" />
+    <Compile Include="CachedEntities.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="ManagerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YX.Framework.Common\YX.Framework.Common.csproj">
+      <Project>{ac572e3d-462b-4f5f-b785-c40a1c89d0e4}</Project>
+      <Name>YX.Framework.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

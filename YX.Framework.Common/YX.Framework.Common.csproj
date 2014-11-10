@@ -31,7 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,8 +43,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Collections\Filter.cs" />
+    <Compile Include="Collections\JComparison.cs" />
+    <Compile Include="Collections\JList.cs" />
+    <Compile Include="Collections\MatchMode.cs" />
+    <Compile Include="Collections\PagingOptions.cs" />
+    <Compile Include="Collections\SortBy.cs" />
+    <Compile Include="Collections\SqlDataReaderToList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\AliasToBeanResult.cs" />
+    <Compile Include="Utility\LINQUtil.cs" />
+    <Compile Include="Utility\SqlHelper.cs" />
+    <Compile Include="Utility\StoreProcedureHelper.cs" />
+    <Compile Include="Utility\TypeExtension.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
