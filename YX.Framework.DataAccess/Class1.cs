@@ -8,6 +8,6 @@ namespace YX.Framework.DataAccess
 {
     public class Class1
     {
-
+         
     }
 }
