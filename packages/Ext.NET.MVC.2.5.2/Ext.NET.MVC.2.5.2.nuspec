@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Ext.NET.MVC</id>
+    <version>2.5.2</version>
+    <title>Ext.NET.MVC</title>
+    <authors>Ext.NET Inc.</authors>
+    <owners>Ext.NET Inc.</owners>
+    <licenseUrl>http://www.ext.net/licensepro/</licenseUrl>
+    <projectUrl>http://www.ext.net/</projectUrl>
+    <iconUrl>http://speed.ext.net/identity/extnet-100x100-cog.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ext.NET install package for ASP.NET MVC version 4.
+        
+        Ext.NET is an advanced ASP.NET (WebForms + MVC) component framework integrating the cross-browser Sencha Ext JS JavaScript Library.
+
+        Includes 100+ high performance controls for Data Grids, Trees, Menus, Forms, Advanced Layouts and AJAX communication.</description>
+    <summary>Ext.NET is an advanced ASP.NET (WebForms + MVC) component framework integrating the cross-browser Sencha Ext JS JavaScript Library.</summary>
+    <copyright>Copyright (c) 2008-2014, Ext.NET, Inc. (http://www.ext.net/). All rights reserved.</copyright>
+    <tags>ext.net extnet sencha extjs ext js asp.net aspnet mvc aspnetmvc javascript web control</tags>
+    <dependencies>
+      <dependency id="Ext.NET.Utilities" version="2.4.0" />
+      <dependency id="Transformer.NET" version="2.1.1" />
+      <dependency id="Newtonsoft.Json" version="6.0.2" />
+      <dependency id="WebActivatorEx" version="2.0.3" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web.Mvc" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
