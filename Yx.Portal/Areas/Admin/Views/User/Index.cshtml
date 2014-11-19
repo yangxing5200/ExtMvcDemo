@@ -1,0 +1,20 @@
+﻿@using Ext.Net
+@using Ext.Net.MVC
+
+@{
+    ViewBag.Title = "Index";
+    var X = @Html.X();
+}
+
+<h2>Index</h2>
+
+@{
+    @(X.FormPanel()
+          .Title("UserForm")
+          .ID("fpUser")
+          .Width(1024)
+          .Height(768)
+          .Layout(LayoutType.Anchor)
+          .Items())
+    
+}
