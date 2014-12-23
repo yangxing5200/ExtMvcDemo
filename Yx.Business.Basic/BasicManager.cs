@@ -7,7 +7,7 @@
       * 文 件 名:       BasicManager
       * 创建时间:       2014/11/19 10:44:12
       * 作    者:       杨廷兴 Jason
-      * 版    权:       BasicManager说明：本代码版权归杨廷兴所有，使用时必须带上常伟华网站地址 All Rights Reserved (C) 2014 - 2020
+      * 版    权:       BasicManager说明：本代码版权归杨廷兴所有，使用时必须带上杨廷兴网站地址 All Rights Reserved (C) 2014 - 2020
       * 签    名:        to be or not to be, that's a question. !
       * 网    站:       http://user.qzone.qq.com/418505093 
 

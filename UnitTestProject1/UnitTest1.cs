@@ -19,5 +19,10 @@ namespace UnitTestProject1
             var select = string.Format(" select {0} ", sum);
             return select + sql.Substring(sql.ToLower().IndexOf(" from "));
         }
+        [TestMethod]
+        public void TestWcfMethod()
+        {
+            
+        }
     }
 }

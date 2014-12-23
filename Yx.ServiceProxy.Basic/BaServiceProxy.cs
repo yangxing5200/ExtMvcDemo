@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Yx.ServiceProxy.Basic.BasicService;
+
 
 namespace Yx.ServiceProxy.Basic
 {
