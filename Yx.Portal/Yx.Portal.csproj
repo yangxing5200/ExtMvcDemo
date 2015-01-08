@@ -214,6 +214,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML5\Audio_Video2.html" />
+    <Content Include="HTML5\Audio_Video.html" />
+    <Content Include="Html5_Simple.html" />
+    <Content Include="Html5.html" />
+    <Content Include="HTML5\Canvas.html" />
+    <Content Include="HTML5\Html5.html" />
+    <Content Include="res\anmc.mp3" />
+    <Content Include="res\cxjd.mp3" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Readme\Ext.NET.MVC\Sample.Web.config" />

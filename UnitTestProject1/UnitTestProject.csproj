@@ -53,6 +53,12 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yx.ServiceProxy.Basic\Yx.ServiceProxy.Basic.csproj">
+      <Project>{ef3490e2-c243-4b69-95c4-bed0afc99e14}</Project>
+      <Name>Yx.ServiceProxy.Basic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

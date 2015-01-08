@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Yx.ServiceProxy.Basic;
 
 namespace UnitTestProject1
 {
@@ -22,7 +23,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestWcfMethod()
         {
-            
+            BaServiceProxy proxy=new BaServiceProxy();
+            proxy.GetData(8888);
         }
     }
 }

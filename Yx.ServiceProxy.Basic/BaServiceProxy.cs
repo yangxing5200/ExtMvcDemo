@@ -1,24 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+
+using Yx.ServiceProxy.Basic.ServiceReference1;
 
 
 namespace Yx.ServiceProxy.Basic
 {
-    public class BaServiceProxy:IBasicService
+    public class BaServiceProxy : IBasicService
     {
         public string GetData(int value)
         {
-            throw new NotImplementedException();
+            BasicServiceClient client = new BasicServiceClient();
+            return client.GetData(value);
         }
 
- 
+
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             throw new NotImplementedException();
         }
 
+
+
+        public Task<string> GetDataAsync(int value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CompositeType> GetDataUsingDataContractAsync(CompositeType composite)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
